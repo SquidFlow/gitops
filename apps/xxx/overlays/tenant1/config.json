@@ -1,0 +1,16 @@
+{
+  "appName": "xxx",
+  "userGivenName": "xxx",
+  "destNamespace": "default",
+  "destServer": "https://kubernetes.default.svc",
+  "srcPath": "apps/xxx/overlays/tenant1",
+  "srcRepoURL": "https://github.com/squidflow/gitops.git",
+  "srcTargetRevision": "",
+  "labels": null,
+  "annotations": {
+    "squidflow.github.io/appcode": "esfs",
+    "squidflow.github.io/created-by": "username",
+    "squidflow.github.io/description": "xxx",
+    "squidflow.github.io/tenant": "tenant1"
+  }
+}
