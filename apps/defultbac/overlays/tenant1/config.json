@@ -1,0 +1,16 @@
+{
+  "appName": "defultbac",
+  "userGivenName": "defultbac",
+  "destNamespace": "default",
+  "destServer": "https://kubernetes.default.svc",
+  "srcPath": "apps/defultbac/overlays/tenant1",
+  "srcRepoURL": "https://github.com/squidflow/gitops.git",
+  "srcTargetRevision": "",
+  "labels": null,
+  "annotations": {
+    "squidflow.github.io/cluster-appcode": "esfs",
+    "squidflow.github.io/cluster-description": "",
+    "squidflow.github.io/cluster-env": "username",
+    "squidflow.github.io/cluster-tenant": "tenant1"
+  }
+}
