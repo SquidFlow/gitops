@@ -37,7 +37,7 @@ spec:
   - git:
       files:
       - path: apps/**/tenant2/config.json
-      repoURL: https://github.com/squidflow/tenant2-governed.git
+      repoURL: https://github.com/squidflow/gitops.git
       requeueAfterSeconds: 20
       revision: ""
       template:
@@ -48,7 +48,7 @@ spec:
   - git:
       files:
       - path: apps/**/tenant2/config_dir.json
-      repoURL: https://github.com/squidflow/tenant2-governed.git
+      repoURL: https://github.com/squidflow/gitops.git
       requeueAfterSeconds: 20
       revision: ""
       template:
