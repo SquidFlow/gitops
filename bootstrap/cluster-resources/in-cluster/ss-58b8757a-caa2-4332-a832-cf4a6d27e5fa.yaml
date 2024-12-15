@@ -1,0 +1,23 @@
+apiVersion: external-secrets.io/v1beta1
+kind: SecretStore
+metadata:
+  annotations:
+    squidflow.github.io/created-at: "2024-12-15T21:53:50+08:00"
+    squidflow.github.io/id: 58b8757a-caa2-4332-a832-cf4a6d27e5fa
+    squidflow.github.io/last-synced: "2024-12-15T21:53:50+08:00"
+    squidflow.github.io/updated-at: "2024-12-15T21:53:50+08:00"
+  creationTimestamp: null
+  name: vault-backend
+  namespace: default
+spec:
+  provider:
+    vault:
+      auth:
+        tokenSecretRef:
+          key: token
+          name: vault-token
+      path: secret
+      server: http://vault.default:8200
+      tls: {}
+      version: v2
+status: {}
